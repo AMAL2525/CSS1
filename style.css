@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("../res/fond.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: #5d4954;
+    font-family: 'Poppins', sans-serif;
+    min-height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex
+    }
+    .logo{
+        color: rgb(233, 229, 229);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 20px;
+        }
+    ul{
+            display: flex;
+            justify-content: space-around;
+            width: 40%;
+        
+        }
+        ul li{
+            list-style: none;
+        }
+        ul li a {
+            color: rgb(233, 229, 229);
+            text-decoration: none;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size:11px;
+
+        }
+        .burger {
+            display: none;
+            cursor: pointer;
+        }
+        .burger div{
+            width: 25px;
+            height: 3px;
+            background-color: rgb(233, 229, 229);
+            margin: 5px;
+        }
+@media screen and (max-width:768px){
+    body {
+        overflow: hidden;
+    }
+    
+    ul{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in ;
+
+    }
+    ul li{
+        opacity: 0;
+    }
+.burger{
+    display: block;
+}
+    
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+    nav ul li:hover{
+        background-color: #c7a7a7;
+        transition: 0.9s;        
+    }
+
+
+        
+#Contactme div{
+display: flex;
+justify-content: space-evenly;
+}
+
+#Contactme h5{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: large;
+  font-family: 'Anton', sans-serif;
+    }  
+    .Amal {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      p.uppercase {
+        text-transform: uppercase;
+      }
+      p{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        font-size: large;
+        
+
+      }
+      table, th, td {
+          margin-top: 5pc;
+          border: 1px solid black;
+          margin: auto;
+        
+        width: 30%;
+        height: 50%;
+        
+      }
+      #Experience h3 {
+          display: flex;
+          font-family: 'Anton', sans-serif;
+          justify-content: space-around; 
+      }
+      #Study h4 {
+        display: flex;
+        font-family: 'Anton', sans-serif;
+        justify-content: space-around; 
+    }
+    #AboutMe h2 {
+        display: flex;
+        font-family: 'Anton', sans-serif;
+        justify-content: space-around; 
+    }
+    
+
+
+
+ 
+ 
+ 
